@@ -1,1 +1,7 @@
+fruits = ['apple', 'orange', 'banana', 'lemon']
 
+startNumber = 1
+
+for i in fruits:
+    print('{}. {}'.format(startNumber, i))
+    startNumber +=1
